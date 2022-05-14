@@ -1,4 +1,9 @@
 /* UTILITIES */
+.logo_img {
+    width:162px ;
+    height: 65px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,16 +28,18 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: teal;
-    color: #fff;
+    background-color: #FFFBFB;
+    color: black;
 }
 
 .nav-links a {
-    color: #fff;
+    color: black;
 }
 
 /* LOGO */
 .logo {
+    width:162px ;
+    height: 65px;
     font-size: 32px;
 }
 
@@ -44,7 +51,7 @@ li {
 }
 
 .menu li:hover {
-    background-color: #4c9e9e;
+    background-color:;
     border-radius: 5px;
     transition: 0.3s ease;
 }
@@ -53,7 +60,12 @@ li {
     padding: 5px 14px;
 }
 
+
 /* DROPDOWN MENU */
+.edasimuujad {
+    position: relative;
+}
+
 .services {
     position: relative;
 }
@@ -80,6 +92,10 @@ li {
 
 .dropdown li:hover {
     background-color: #4c9e9e;
+}
+
+.edasimuujad:hover .dropdown {
+    display: block;
 }
 
 .services:hover .dropdown {
