@@ -71,7 +71,7 @@ li {
 }
 
 .dropdown {
-    background-color: rgb(1, 139, 139);
+    background-color: #FFFFFF;
     padding: 1em 0;
     position: absolute;
     /*WITH RESPECT TO PARENT*/
@@ -91,7 +91,7 @@ li {
 }
 
 .dropdown li:hover {
-    background-color: #4c9e9e;
+    background-color: grey;
 }
 
 .edasimuujad:hover .dropdown {
@@ -120,7 +120,7 @@ input[type=checkbox] {
     .menu {
         display: none;
         position: absolute;
-        background-color: teal;
+        background-color: #FFFFFF;
         right: 0;
         left: 0;
         text-align: center;
@@ -129,7 +129,7 @@ input[type=checkbox] {
 
     .menu li:hover {
         display: inline-block;
-        background-color: #4c9e9e;
+        background-color: #FFFFFF;
         transition: 0.3s ease;
     }
 
@@ -152,6 +152,6 @@ input[type=checkbox] {
     }
 
     .dropdown li:hover {
-        background-color: #4c9e9e;
+        background-color: #FFFFFF;
     }
 }
