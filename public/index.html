@@ -45,12 +45,85 @@
             </div>
         </ul>
     </nav>
-    <div class="info">
-        <img src="" alt="">
-        <div>
+    <!-- main -->
+        <div class="cards-container">
+            <div class="content-box">
+                <h3 class="content-box-top">PLEKKDETAILID KÜTTEKOLLETELE & PLIIDI ÄÄRERAUAD</h3>
+                <img src="/images/plekk-1.jpeg" alt="plekk">
+                <div class="content-box-bottom">
+                    <a class="alink" href="">VAATA KATALOOGI</a>
+                </div>
+            </div>
+            <div class="content-box">
+                <h3 class="content-box-top">PLEKKDETAILID KÜTTEKOLLETELE & PLIIDI ÄÄRERAUAD</h3>
+                <img src="/images/malm.jpeg" alt="malm">
+                <div class="content-box-bottom">
+                    <a class="alink" href="">VAATA KATALOOGI</a>
+                </div>
+            </div>
+            <div class="content-box">
+                <h3 class="content-box-top">PLEKKDETAILID KÜTTEKOLLETELE & PLIIDI ÄÄRERAUAD</h3>
+                <img src="/images/vent.jpeg" alt="vent">
+                <div class="content-box-bottom">
+                    <a class="alink" href="">VAATA KATALOOGI</a>
+                </div>
+            </div>
+        </div>
+    <main>
 
+        <div class="opentimes">Oleme avatud tööpäevadel 9-17</div>
+
+        <div class="blog-content">
+            <img class="blog-img" src="/images/pilt.jpeg" alt="Mihkel">
+            <div class="blog-text">OÜ Põlmer on Eesti kapitalil 1993. aastast tegutsev firma, mis on spetsialiseerunud plekist toodete valmistamisele. Firma valmistab põhiliselt lisadetaile küttekolletele ning müüb oma tooteid läbi ehitusmaterjalide kaupluste nii Eestis kui ka mujal riikides. Lisaks põhitoodangule teostab firma klientidele kõikvõimalikke eritellimusi ja muid plekitöid vastavalt joonistele (veeplekid hoonetele, korstnamütsid, erimõõdus kaminaplekid jms).</div>
+        </div>
+        <div style="margin-bottom: 4rem;">Põlmer OÜ teostas projekti „Arendusosak”, mille eesmärgiks oli kahe automaatse rakise väljatöötamine, mis parandaksid oluliselt tahmatoppide tootmist. Projekti raames aitas teostada insenertehnilisi arendustöid inseneribüroo Valtech OÜ. Projekti tulemusel valmis tehnoloogiline lahendus tahmatopi kaane ja sokli ühendamiseks. Projekti elluviimist toetas Euroopa Regionaalarengu Fond. Toetuse summa 19 180 EUR.</div>
+    </main>
+
+    <div class="banners">
+        <img class="diploms" src="/images/Gasellettevote_2015.webp" alt="Gasellettevõte tunnustus 2015">
+        <img class="diploms" src="/images/AAA.webp" alt="AAA tunnustus">
+        <img class="diploms" src="/images/Gasellettevote_2016.webp" alt="Gasellettevõtte tunnustus 2016">
+    </div>
+
+    <div class="contact">
+        <h1>KONTAKT</h1>
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <p>Asta Lember, müük</p>
+                <p>e-mail: polmer[at]hot.ee</p>
+                <p>telefon: +372 45 38 657</p>
+                <p>Mihkel Kangur, juhataja</p>
+                <p>e-mail: polmer[at]polmer.ee</p>
+                <p>telefon: +372 506 2277</p>
+                <a style="margin-top: 1rem;" href="#">Tootesertifikaat</a>
+            </div>
+            <div class="contact-info2">
+                <p>Kalevi 30a</p>
+                <p>Kuressaare</p>
+                <p>93815 Saare maakond</p>
+            </div>
         </div>
     </div>
+    <footer>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">˄</button>
+        <span>PÕLMER OÜ © 2017</span>
+    </footer>
 </body>
+<script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </html>

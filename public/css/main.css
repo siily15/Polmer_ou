@@ -1,3 +1,145 @@
-.info {
-    color: black;
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+main {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-size: 1.5rem;
+}
+.cards-container{
+    background-image: url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem;
+}
+.content-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    color: white;
+}
+.content-box-top {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    width: 450px;
+    background-color: rgba(51, 102, 255, 0.7);
+}
+.content-box-bottom {
+    background-color: rgba(51, 102, 255, 0.7);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 450px;
+    text-align: center;
+}
+.alink {
+    border: solid 1px white;
+    padding: 10px;
+}
+a:link {
+    color: #ffff;
+}
+/* a:visited {
+    color: #ffff;
+} */
+a:hover {
+    color: #ffff;
+}
+a:active {
+    color: #ffff;
+}
+.opentimes {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border: solid black 1px;
+    background-color: rgb(199, 199, 199);
+    padding: 2rem;
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.blog-img {
+    height: 350px;
+}
+.blog-text {
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.banners {
+    background-image: url("/images/taust_mv-1.jpg");
+        min-height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+}
+.diploms {
+    height: 300px;
+}
+.contact {
+    background-color: #3366FF;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.contact-info-container {
+    display: flex;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+.contact-info2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.2rem;
+}
+footer {
+    background-color: black;
+    height: 10rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+footer span {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+}
+#myBtn {
+    color: white;
+    font-size: 4rem;
+    background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+}
+#myBtn:hover {
+    color: #3366FF;
 }
