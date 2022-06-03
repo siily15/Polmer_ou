@@ -15,6 +15,7 @@
     flex-wrap: wrap;
 }
 .plekk{
+    width: 30rem;
     display: flex;
     background-color: #C4C4C4;
     border-radius: 25px;
