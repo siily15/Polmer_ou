@@ -144,6 +144,42 @@ footer span {
     color: #3366FF;
 }
 
+<<<<<<< HEAD
+
+@media only screen and (max-width: 768px){
+    .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-size: 1.5rem;
+    }
+
+    .banners{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-info-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-info{
+        padding-left: 20%;
+        padding-top: 1rem;
+    }
+    .contact-info2{
+        margin-top: 2.6rem;
+        margin-left: 1.25rem;
+    }
+    .contact{
+        padding: 0px;
+    }
+=======
 @media only screen and (max-width: 768px) {
     
+>>>>>>> a11031d3a05e7937f6579872bb18247b4cf1047a
 }
