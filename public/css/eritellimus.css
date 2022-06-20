@@ -1,0 +1,36 @@
+* {
+    font-size: 1.2rem;
+}
+
+.images {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    margin-right: 2rem;
+}
+
+.text {
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .images {
+        gap: 20px;
+        display:flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
