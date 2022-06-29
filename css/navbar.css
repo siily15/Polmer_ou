@@ -133,7 +133,7 @@ input[type=checkbox] {
 
     .menu li:hover {
         display: inline-block;
-        background-color: white;
+        background-color: grey;
         transition: 0.3s ease;
     }
 
@@ -142,6 +142,7 @@ input[type=checkbox] {
     }
 
     input[type=checkbox]:checked~.menu {
+
         display: block;
     }
 
@@ -150,11 +151,11 @@ input[type=checkbox] {
     }
 
     .dropdown {
-        left: 50%;
+        width: 12rem;
+        left: 1rem;
         top: 30px;
         transform: translateX(35%);
     }
-
     .dropdown li:hover {
         background-color: grey;
     }
