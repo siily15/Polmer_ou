@@ -151,6 +151,10 @@ footer span {
         flex-wrap: wrap;
     }
 
+    .content-box {
+        margin-bottom: 1rem;
+    }
+
     main {
         padding-left: 0rem;
         padding-right: 0rem;

@@ -1,27 +1,19 @@
-const imageWrapper = document.querySelector('.image-wrapper')
-const imageItems = document.querySelectorAll('.image-wrapper > *')
-const imageLength = imageItems.length
-const perView = 4
-let totalScroll = 0
-const delay = 2000
+let slideIndex = 0;
+showSlides();
 
-imageWrapper.style.setProperty('--per-view', perView)
-for(let i = 0; i < perView; i++) {
-  imageWrapper.insertAdjacentHTML('beforeend', imageItems[i].outerHTML)
-}
-
-let autoScroll = setInterval(scrolling, delay)
-
-function scrolling() {
-  totalScroll++
-  if(totalScroll == imageLength + 1) {
-    clearInterval(autoScroll)
-    totalScroll = 1
-    imageWrapper.style.transition = '0s'
-    imageWrapper.style.left = '0'
-    autoScroll = setInterval(scrolling, delay)
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-  const widthEl = document.querySelector('.image-wrapper > :first-child').offsetWidth + 24
-  imageWrapper.style.left = `-${totalScroll * widthEl}px`
-  imageWrapper.style.transition = '.5s'
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
