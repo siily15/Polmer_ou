@@ -7,7 +7,12 @@
   }
 
 #slideshow-example {
-    margin-top: 5rem;
     display: flex;
     justify-content: center;
+}
+
+.edasi {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    font-size: 50px;
 }
