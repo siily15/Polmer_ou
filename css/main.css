@@ -184,4 +184,28 @@ footer span {
     .contact{
         padding: 0px;
     }
+    .content-box {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+        color: white;
+    }
+    .content-box-top {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        width: 430px;
+        background-color: rgba(51, 102, 255, 0.7);
+    }
+    .content-box-bottom {
+        background-color: rgba(51, 102, 255, 0.7);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 430px;
+        text-align: center;
+    }
+    .content-img {
+        width: 430px;
+    }
 }
