@@ -154,10 +154,6 @@ footer span {
         flex-wrap: wrap;
     }
 
-    .content-box {
-        margin-bottom: 1rem;
-    }
-
     main {
         padding-left: 0rem;
         padding-right: 0rem;
@@ -185,27 +181,28 @@ footer span {
         padding: 0px;
     }
     .content-box {
+        margin-bottom: 1rem;
         align-items: center;
         display: flex;
         flex-direction: column;
-        width: 430px;
+        width: 410px;
         color: white;
     }
     .content-box-top {
         padding-top: 2rem;
         padding-bottom: 2rem;
         text-align: center;
-        width: 430px;
+        width: 410px;
         background-color: rgba(51, 102, 255, 0.7);
     }
     .content-box-bottom {
         background-color: rgba(51, 102, 255, 0.7);
         padding-top: 2rem;
         padding-bottom: 2rem;
-        width: 430px;
+        width: 410px;
         text-align: center;
     }
     .content-img {
-        width: 430px;
+        width: 410px;
     }
 }
