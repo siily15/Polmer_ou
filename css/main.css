@@ -192,17 +192,17 @@ footer span {
         padding-top: 2rem;
         padding-bottom: 2rem;
         text-align: center;
-        width: 410px;
+        width: 380px;
         background-color: rgba(51, 102, 255, 0.7);
     }
     .content-box-bottom {
         background-color: rgba(51, 102, 255, 0.7);
         padding-top: 2rem;
         padding-bottom: 2rem;
-        width: 410px;
+        width: 380px;
         text-align: center;
     }
     .content-img {
-        width: 410px;
+        width: 380px;
     }
 }
