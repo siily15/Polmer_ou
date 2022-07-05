@@ -148,7 +148,7 @@ footer span {
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 820px){
     .cards-container{
         display: flex;
         flex-wrap: wrap;
@@ -192,17 +192,17 @@ footer span {
         padding-top: 2rem;
         padding-bottom: 2rem;
         text-align: center;
-        width: 380px;
+        width: 360px;
         background-color: rgba(51, 102, 255, 0.7);
     }
     .content-box-bottom {
         background-color: rgba(51, 102, 255, 0.7);
         padding-top: 2rem;
         padding-bottom: 2rem;
-        width: 380px;
+        width: 360px;
         text-align: center;
     }
     .content-img {
-        width: 380px;
+        width: 360px;
     }
 }
