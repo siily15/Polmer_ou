@@ -155,6 +155,7 @@ input[type=checkbox] {
     }
 
     .dropdown {
+        margin-right: 3rem;
         width: 12rem;
         left: 1rem;
         top: 30px;
