@@ -1,3 +1,7 @@
+.slide {
+    margin-top: 110px;
+}
+
 [data-component="slideshow"] .slide {
     display: none;
   }
