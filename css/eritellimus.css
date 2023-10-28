@@ -1,15 +1,16 @@
-* {
-    font-size: 1.2rem;
-}
-
 .images {
-    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
     display: flex;
     justify-content: center;
 }
 
 .img1 {
     margin-right: 2rem;
+}
+
+.img3 {
+    margin-left: 1rem;
 }
 
 .text {
@@ -19,6 +20,7 @@
 }
 
 .text-content {
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 3rem;
